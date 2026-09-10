@@ -18,10 +18,10 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
         <Link to="/" className="flex items-center gap-2.5">
           <span className="flex h-8 w-8 items-center justify-center rounded bg-primary font-heading text-sm font-bold text-primary-foreground">
-            FM
+            BA
           </span>
           <span className="font-heading text-sm font-semibold tracking-tight">
-            Fitsum Mulugeta
+            Bemnet Admassu
           </span>
         </Link>
 

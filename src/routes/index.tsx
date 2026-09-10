@@ -8,13 +8,13 @@ import { services, projects, site } from "@/lib/site-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Fitsum Mulugeta — Software Engineer & Systems Architect" },
+      { title: "Bement Admassu — Software Engineer & Systems Architect" },
       {
         name: "description",
         content:
           "Full-stack engineering and IT systems architecture for enterprise platforms, payments and integrations. Based in Addis Ababa, working worldwide.",
       },
-      { property: "og:title", content: "Fitsum Mulugeta — Software Engineer & Systems Architect" },
+      { property: "og:title", content: "Bement Admassu — Software Engineer & Systems Architect" },
       {
         property: "og:description",
         content:
@@ -46,8 +46,8 @@ function Index() {
             <div>
               <p className="eyebrow">{site.role}</p>
               <h1 className="mt-5 text-4xl font-bold leading-[1.05] md:text-6xl">
-                Fitsum Mulugeta
-                <span className="block text-primary">Tesfaye</span>
+                Bement Admassu
+                <span className="block text-primary">Zeleke</span>
               </h1>
               <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground">
                 A decade of building scalable systems and enterprise solutions — from payment

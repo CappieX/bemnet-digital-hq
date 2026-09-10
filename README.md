@@ -913,8 +913,8 @@ export default function Hero() {
             
 
 
-              Fitsum Mulugeta
-              Tesfaye
+              Bemnet Admassu
+              Zeleke
             
 
 
