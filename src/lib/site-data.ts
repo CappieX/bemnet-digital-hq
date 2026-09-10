@@ -1,7 +1,7 @@
 export const site = {
-  name: "Fitsum Mulugeta Tesfaye",
+  name: " Bemnet Admasu Zeleke ",
   role: "Full-Stack Software Engineer & IT Systems Architect",
-  email: "fitmulugeta@gmail.com",
+  email: "bemnet61@gmail.com",
   github: "https://github.com/CappieX",
   linkedin: "https://linkedin.com/in/fitsum-mulugeta-39454750",
   location: "Addis Ababa, Ethiopia",

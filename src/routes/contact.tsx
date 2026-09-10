@@ -18,7 +18,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:title", content: "Contact & Book a Consultation — Fitsum Mulugeta" },
       {
         property: "og:description",
-        content: "Share your project brief and book a consultation with Fitsum Mulugeta Tesfaye.",
+        content: "Share your project brief and book a consultation with  Bemnet Admasu Zeleke ",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

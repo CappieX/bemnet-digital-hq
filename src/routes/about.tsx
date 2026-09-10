@@ -16,7 +16,7 @@ export const Route = createFileRoute("/about")({
       { property: "og:title", content: "About Fitsum Mulugeta — Systems Architect" },
       {
         property: "og:description",
-        content: "Career timeline, technical skills and working approach of Fitsum Mulugeta Tesfaye.",
+        content: "Career timeline, technical skills and working approach of  Bemnet Admasu Zeleke ",
       },
       { property: "og:type", content: "profile" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -51,7 +51,7 @@ function About() {
           </div>
           <img
             src="/fitsum-portrait.jpg"
-            alt="Fitsum Mulugeta Tesfaye in his office"
+            alt="  Bemnet Admasu Zeleke  in his office"
             className="w-full rounded-2xl border border-border object-cover"
             width={880}
             height={1180}

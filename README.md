@@ -77,7 +77,7 @@ CHAPA_WEBHOOK_URL="https://api.fitsum.dev/webhook/chapa"
 # Bank Details (Public)
 BANK_NAME="Commercial Bank of Ethiopia"
 BANK_ACCOUNT="1000292750521"
-BANK_ACCOUNT_NAME="Fitsum Mulugeta Tesfaye"
+BANK_ACCOUNT_NAME=" Bemnet Admasu Zeleke "
 BANK_SWIFT="CBETETADD"
 BANK_BRANCH="Head Office"
 
@@ -562,7 +562,7 @@ POST /api/payments/bank-transfer
   reference: string;
   bankName: 'Commercial Bank of Ethiopia';
   accountNumber: '1000292750521';
-  accountName: 'Fitsum Mulugeta Tesfaye';
+  accountName: ' Bemnet Admasu Zeleke ';
   swiftCode: 'CBETETADD';
 }
 

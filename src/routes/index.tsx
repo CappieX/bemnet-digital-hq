@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Enterprise web platforms, payment integrations and architecture consulting by Fitsum Mulugeta Tesfaye.",
+          "Enterprise web platforms, payment integrations and architecture consulting by  Bemnet Admasu Zeleke ",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -79,7 +79,7 @@ function Index() {
               <div className="absolute -inset-3 rounded-2xl bg-primary/15 blur-2xl" aria-hidden="true" />
               <img
                 src="/fitsum-portrait.jpg"
-                alt="Portrait of Fitsum Mulugeta Tesfaye at his workstation"
+                alt="Portrait of  Bemnet Admasu Zeleke  at his workstation"
                 className="relative rounded-2xl border border-border object-cover red-glow"
                 width={880}
                 height={1180}
