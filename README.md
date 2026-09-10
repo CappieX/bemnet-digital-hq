@@ -1,4 +1,4 @@
-# Fitsum's Digital HQ
+# Bemnet's Digital HQ
 
 roject Overview
 
@@ -7,8 +7,8 @@ Build a full-stack, enterprise-grade professional service platform for Fitsum Mu
 REPOSITORY STRUCTURE
 
 text
-fitsum-frontend/    # Frontend (Next.js) - Deploy on Vercel
-fitsum-backend/     # Backend (NestJS/Express) - Deploy on Render
+Bemnets-frontend/    # Frontend (Next.js) - Deploy on Vercel
+Bemnets-backend/     # Backend (NestJS/Express) - Deploy on Render
 TECHNOLOGY STACK
 
 Frontend (Vercel)
