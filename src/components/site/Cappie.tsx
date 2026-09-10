@@ -7,7 +7,7 @@ type Msg = { role: "user" | "assistant"; content: string };
 const greeting: Msg = {
   role: "assistant",
   content:
-    "Hi, I'm Cappie — Fitsum's assistant. I can explain services, share pricing, or help you set up a consultation. What are you working on?",
+    "Hi, I'm Cappie — Bemnet's assistant. I can explain services, share pricing, or help you set up a consultation. What are you working on?",
 };
 
 function reply(input: string): string {
@@ -17,13 +17,13 @@ function reply(input: string): string {
     return services.map((s) => `${s.name}: ${s.price} (${s.timeline})`).join("\n");
   }
   if (/book|consult|meeting|call|appointment|schedule/.test(q)) {
-    return "Great — send your project details through the contact page and Fitsum replies within one working day to confirm a consultation slot.";
+    return "Great — send your project details through the contact page and Bement replies within one working day to confirm a consultation slot.";
   }
   if (/payment|telebirr|chapa|bank|cbe/.test(q)) {
     return "Payments can be made by Telebirr, Chapa or a transfer to Commercial Bank of Ethiopia. Full details are confirmed on your invoice.";
   }
   if (/service|do you|offer|help with|build/.test(q)) {
-    return `Fitsum offers: ${services.map((s) => s.name).join(", ")}. Which one would you like to hear more about?`;
+    return `Bement offers: ${services.map((s) => s.name).join(", ")}. Which one would you like to hear more about?`;
   }
   if (/portfolio|project|work|case study|experience/.test(q)) {
     return "Recent work covers payment integration hubs, logistics operations suites and clinic record platforms — see the portfolio page for the results of each.";
@@ -31,7 +31,7 @@ function reply(input: string): string {
   if (/hi|hello|hey|selam/.test(q)) {
     return "Hello! Ask me about services, pricing, past projects, or booking a consultation.";
   }
-  return "I've noted that. For a detailed answer, send it through the contact page and Fitsum will follow up personally — or ask me about services, pricing or booking.";
+  return "I've noted that. For a detailed answer, send it through the contact page and Bemnet will follow up personally — or ask me about services, pricing or booking.";
 }
 
 export function Cappie() {
